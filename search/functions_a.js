@@ -9,6 +9,7 @@ var searchData=
   ['setlorentzfactor',['setLorentzFactor',['../classcrpropa_1_1ParticleState.html#a65b64edf859c3cc195b2aef18e581ce6',1,'crpropa::ParticleState']]],
   ['setnextstep',['setNextStep',['../classcrpropa_1_1Candidate.html#a32900f357403f1b437d93d309c8dafa8',1,'crpropa::Candidate']]],
   ['setposition',['setPosition',['../classcrpropa_1_1ParticleState.html#a8a87b0331cf36383d6288dacbd130815',1,'crpropa::ParticleState']]],
+  ['setshowprogress',['setShowProgress',['../classcrpropa_1_1ModuleList.html#a0abf2e0b4076bf42006e866b189ffc9d',1,'crpropa::ModuleList']]],
   ['setstriatedgrid',['setStriatedGrid',['../classcrpropa_1_1JF12Field.html#a88402c161df861dd4d2bbd840fc855f9',1,'crpropa::JF12Field']]],
   ['setturbulenceproperties',['setTurbulenceProperties',['../classcrpropa_1_1TurbulentMagneticField.html#a28ad87fb8daaea8a41a1f9800dd69025',1,'crpropa::TurbulentMagneticField']]],
   ['setturbulentgrid',['setTurbulentGrid',['../classcrpropa_1_1JF12Field.html#abebdd1a7663dfad4e1f11ced9cf3a023',1,'crpropa::JF12Field']]],
