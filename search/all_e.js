@@ -30,5 +30,6 @@ var searchData=
   ['ref_5fptr_3c_20crpropa_3a_3asourcefeature_20_3e',['ref_ptr&lt; crpropa::SourceFeature &gt;',['../classcrpropa_1_1ref__ptr.html',1,'crpropa']]],
   ['ref_5fptr_3c_20module_20_3e',['ref_ptr&lt; Module &gt;',['../classcrpropa_1_1ref__ptr.html',1,'crpropa']]],
   ['referenced',['Referenced',['../classcrpropa_1_1Referenced.html',1,'crpropa']]],
-  ['reflectivebox',['ReflectiveBox',['../classcrpropa_1_1ReflectiveBox.html',1,'crpropa']]]
+  ['reflectivebox',['ReflectiveBox',['../classcrpropa_1_1ReflectiveBox.html',1,'crpropa']]],
+  ['rigiditycovered',['rigidityCovered',['../classcrpropa_1_1MagneticLens.html#a7a8297f36f56469580f57efb1719de16',1,'crpropa::MagneticLens']]]
 ];

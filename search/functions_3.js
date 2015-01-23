@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['endrun',['endRun',['../classcrpropa_1_1ModuleList.html#a7613d34411574188b7054e5290fe92b0',1,'crpropa::ModuleList']]]
+  ['direction2pix',['direction2Pix',['../classcrpropa_1_1Pixelization.html#a8697c28ebb4cec74fc2bf9aaa523523e',1,'crpropa::Pixelization']]]
 ];
