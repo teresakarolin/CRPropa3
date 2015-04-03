@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.9.1"/>
-<title>CRPropa 3.0: PhotonEleCa Class Reference</title>
+<title>CRPropa 3.0: SourceInterface Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -82,57 +82,40 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><b>crpropa</b></li><li class="navelem"><a class="el" href="classcrpropa_1_1PhotonEleCa.html">PhotonEleCa</a></li>  </ul>
+<li class="navelem"><b>crpropa</b></li><li class="navelem"><a class="el" href="classcrpropa_1_1SourceInterface.html">SourceInterface</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="classcrpropa_1_1PhotonEleCa-members.html">List of all members</a>  </div>
+<a href="classcrpropa_1_1SourceInterface-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">PhotonEleCa Class Reference</div>  </div>
+<div class="title">SourceInterface Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Abstract base class for cosmic ray sources.  
+ <a href="classcrpropa_1_1SourceInterface.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for PhotonEleCa:</div>
+Inheritance diagram for SourceInterface:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="classcrpropa_1_1PhotonEleCa.png" usemap="#PhotonEleCa_map" alt=""/>
-  <map id="PhotonEleCa_map" name="PhotonEleCa_map">
-<area href="classcrpropa_1_1Module.html" title="Abstract base class for modules. " alt="Module" shape="rect" coords="0,56,85,80"/>
-<area href="classcrpropa_1_1Referenced.html" title="Base class for reference counting. " alt="Referenced" shape="rect" coords="0,0,85,24"/>
+  <img src="classcrpropa_1_1SourceInterface.png" usemap="#SourceInterface_map" alt=""/>
+  <map id="SourceInterface_map" name="SourceInterface_map">
+<area href="classcrpropa_1_1Referenced.html" title="Base class for reference counting. " alt="Referenced" shape="rect" coords="56,0,159,24"/>
+<area href="classcrpropa_1_1Source.html" title="General cosmic ray source. " alt="Source" shape="rect" coords="0,112,103,136"/>
+<area href="classcrpropa_1_1SourceList.html" title="List of cosmic ray sources of individual lumosities. " alt="SourceList" shape="rect" coords="113,112,216,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af40b65c48f20bcdfd940cc3f993cf632"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af40b65c48f20bcdfd940cc3f993cf632"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonEleCa</b> (const std::string background, const std::string &amp;outputFilename)</td></tr>
-<tr class="separator:af40b65c48f20bcdfd940cc3f993cf632"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecbdf593d7e4341a6dd7971d10f1d20d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aecbdf593d7e4341a6dd7971d10f1d20d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>process</b> (<a class="el" href="classcrpropa_1_1Candidate.html">Candidate</a> *candidate) const </td></tr>
-<tr class="separator:aecbdf593d7e4341a6dd7971d10f1d20d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa05091ec7bf41aaa81f17fb0752553e1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa05091ec7bf41aaa81f17fb0752553e1"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getDescription</b> () const </td></tr>
-<tr class="separator:aa05091ec7bf41aaa81f17fb0752553e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1456fc209bd504d79c6d1792c447bc6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa1456fc209bd504d79c6d1792c447bc6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setObserver</b> (const <a class="el" href="classcrpropa_1_1Vector3.html">Vector3d</a> &amp;position)</td></tr>
-<tr class="separator:aa1456fc209bd504d79c6d1792c447bc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abee1a3d61ff36052e19fa3122c8f9f83"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abee1a3d61ff36052e19fa3122c8f9f83"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setSaveOnlyPhotonEnergies</b> (bool photonsOnly)</td></tr>
-<tr class="separator:abee1a3d61ff36052e19fa3122c8f9f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3406b56004afdbe7a1815a541d40de99"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3406b56004afdbe7a1815a541d40de99"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setDescription</b> (const std::string &amp;description)</td></tr>
-<tr class="separator:a3406b56004afdbe7a1815a541d40de99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6df990121f30843605cd81d652f162d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6df990121f30843605cd81d652f162d9"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>beginRun</b> ()</td></tr>
-<tr class="separator:a6df990121f30843605cd81d652f162d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80bd6066e28414004fb7dac180a4dd4f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80bd6066e28414004fb7dac180a4dd4f"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>endRun</b> ()</td></tr>
-<tr class="separator:a80bd6066e28414004fb7dac180a4dd4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac87b458918f5201bb1a19f38b5880e8c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac87b458918f5201bb1a19f38b5880e8c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>process</b> (<a class="el" href="classcrpropa_1_1ref__ptr.html">ref_ptr</a>&lt; <a class="el" href="classcrpropa_1_1Candidate.html">Candidate</a> &gt; candidate) const </td></tr>
-<tr class="separator:ac87b458918f5201bb1a19f38b5880e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6b216aa5f601f533f49574041a1afa6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab6b216aa5f601f533f49574041a1afa6"></a>
+virtual <a class="el" href="classcrpropa_1_1ref__ptr.html">ref_ptr</a>&lt; <a class="el" href="classcrpropa_1_1Candidate.html">Candidate</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getCandidate</b> () const =0</td></tr>
+<tr class="separator:ab6b216aa5f601f533f49574041a1afa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a995f039d80c328770b8634c19d41f756"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a995f039d80c328770b8634c19d41f756"></a>
+virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getDescription</b> () const =0</td></tr>
+<tr class="separator:a995f039d80c328770b8634c19d41f756"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01685378d3b045c351f0dc7b9b8d8b1e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a01685378d3b045c351f0dc7b9b8d8b1e"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>addReference</b> () const </td></tr>
 <tr class="separator:a01685378d3b045c351f0dc7b9b8d8b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,12 +130,13 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>getReferenceCount</
 <tr class="separator:aa2610d3e303f601f2c7e60361b4b7192"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="PhotonEleCa_8h_source.html#l00017">17</a> of file <a class="el" href="PhotonEleCa_8h_source.html">PhotonEleCa.h</a>.</p>
+<div class="textblock"><p>Abstract base class for cosmic ray sources. </p>
+
+<p>Definition at line <a class="el" href="Source_8h_source.html#l00028">28</a> of file <a class="el" href="Source_8h_source.html">Source.h</a>.</p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 3 2015 16:33:11 for CRPropa 3.0 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 3 2015 16:33:14 for CRPropa 3.0 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

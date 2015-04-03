@@ -13,6 +13,7 @@ var searchData=
   ['sourceemissioncone',['SourceEmissionCone',['../classcrpropa_1_1SourceEmissionCone.html',1,'crpropa']]],
   ['sourceenergy',['SourceEnergy',['../classcrpropa_1_1SourceEnergy.html',1,'crpropa']]],
   ['sourcefeature',['SourceFeature',['../classcrpropa_1_1SourceFeature.html',1,'crpropa']]],
+  ['sourceinterface',['SourceInterface',['../classcrpropa_1_1SourceInterface.html',1,'crpropa']]],
   ['sourceisotropicemission',['SourceIsotropicEmission',['../classcrpropa_1_1SourceIsotropicEmission.html',1,'crpropa']]],
   ['sourcelist',['SourceList',['../classcrpropa_1_1SourceList.html',1,'crpropa']]],
   ['sourcemultipleparticletypes',['SourceMultipleParticleTypes',['../classcrpropa_1_1SourceMultipleParticleTypes.html',1,'crpropa']]],

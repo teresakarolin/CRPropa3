@@ -11,6 +11,7 @@ var searchData=
   ['randfisher',['randFisher',['../classcrpropa_1_1Random.html#a0ef89b01dbab3b7af11d83ebbb088caf',1,'crpropa::Random']]],
   ['randfishervector',['randFisherVector',['../classcrpropa_1_1Random.html#a59845772e010c85222696da08143282d',1,'crpropa::Random']]],
   ['randint',['randInt',['../classcrpropa_1_1Random.html#a8c079ae2d63ad523f2dc8e0206d96a35',1,'crpropa::Random::randInt()'],['../classcrpropa_1_1Random.html#a3bf230af1698d49585cb6fba34290cc2',1,'crpropa::Random::randInt(const uint32 &amp;n)']]],
+  ['randint64',['randInt64',['../classcrpropa_1_1Random.html#a957487771e79552480efa2f2ed887261',1,'crpropa::Random::randInt64()'],['../classcrpropa_1_1Random.html#a87c673ee0416521c657d34434ea4bfeb',1,'crpropa::Random::randInt64(const uint64_t &amp;n)']]],
   ['randnorm',['randNorm',['../classcrpropa_1_1Random.html#aa9ff74123d4d205b49c9c8c44b2b3af3',1,'crpropa::Random']]],
   ['random',['Random',['../classcrpropa_1_1Random.html#a01ab10f1ae5e9e2c8aaf5d7b3ceb32e6',1,'crpropa::Random::Random(const uint32 &amp;oneSeed)'],['../classcrpropa_1_1Random.html#aa0cd23a16025cfeef7b8810eeb2a5d36',1,'crpropa::Random::Random()']]],
   ['randpowerlaw',['randPowerLaw',['../classcrpropa_1_1Random.html#a0cd29fd1c9f315dbd0630fc3462d9831',1,'crpropa::Random']]],
