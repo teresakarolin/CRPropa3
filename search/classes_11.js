@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['y',['Y',['../classcrpropa_1_1PropagationCK_1_1Y.html',1,'crpropa::PropagationCK']]]
+  ['xmlexecute',['XmlExecute',['../classcrpropa_1_1XmlExecute.html',1,'crpropa']]]
 ];

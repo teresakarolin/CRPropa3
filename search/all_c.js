@@ -6,8 +6,6 @@ var searchData=
   ['observerlargesphere',['ObserverLargeSphere',['../classcrpropa_1_1ObserverLargeSphere.html',1,'crpropa']]],
   ['observerneutrinoveto',['ObserverNeutrinoVeto',['../classcrpropa_1_1ObserverNeutrinoVeto.html',1,'crpropa']]],
   ['observernucleusveto',['ObserverNucleusVeto',['../classcrpropa_1_1ObserverNucleusVeto.html',1,'crpropa']]],
-  ['observeroutput1d',['ObserverOutput1D',['../classcrpropa_1_1ObserverOutput1D.html',1,'crpropa']]],
-  ['observeroutput3d',['ObserverOutput3D',['../classcrpropa_1_1ObserverOutput3D.html',1,'crpropa']]],
   ['observerphotonveto',['ObserverPhotonVeto',['../classcrpropa_1_1ObserverPhotonVeto.html',1,'crpropa']]],
   ['observerpoint',['ObserverPoint',['../classcrpropa_1_1ObserverPoint.html',1,'crpropa']]],
   ['observerredshiftwindow',['ObserverRedshiftWindow',['../classcrpropa_1_1ObserverRedshiftWindow.html',1,'crpropa']]],

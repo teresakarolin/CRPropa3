@@ -103,6 +103,7 @@ Inheritance diagram for ModuleList:</div>
  <div class="center">
   <img src="classcrpropa_1_1ModuleList.png" usemap="#ModuleList_map" alt=""/>
   <map id="ModuleList_map" name="ModuleList_map">
+<area href="classcrpropa_1_1Module.html" title="Abstract base class for modules. " alt="Module" shape="rect" coords="0,56,78,80"/>
 <area href="classcrpropa_1_1Referenced.html" title="Base class for reference counting. " alt="Referenced" shape="rect" coords="0,0,78,24"/>
 </map>
  </div></div>
@@ -139,10 +140,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrpropa_1_1ModuleList.html#a7613d34411574188b7054e5290fe92b0">endRun</a> ()</td></tr>
 <tr class="memdesc:a7613d34411574188b7054e5290fe92b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">call endRun in all modules <br /></td></tr>
 <tr class="separator:a7613d34411574188b7054e5290fe92b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4615b7b46156503e1034f5ea1bb35a0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac4615b7b46156503e1034f5ea1bb35a0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrpropa_1_1ModuleList.html#ac4615b7b46156503e1034f5ea1bb35a0">process</a> (<a class="el" href="classcrpropa_1_1Candidate.html">Candidate</a> *candidate)</td></tr>
-<tr class="memdesc:ac4615b7b46156503e1034f5ea1bb35a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">call process in all modules <br /></td></tr>
-<tr class="separator:ac4615b7b46156503e1034f5ea1bb35a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecbdf593d7e4341a6dd7971d10f1d20d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aecbdf593d7e4341a6dd7971d10f1d20d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrpropa_1_1ModuleList.html#aecbdf593d7e4341a6dd7971d10f1d20d">process</a> (<a class="el" href="classcrpropa_1_1Candidate.html">Candidate</a> *candidate) const </td></tr>
+<tr class="memdesc:aecbdf593d7e4341a6dd7971d10f1d20d"><td class="mdescLeft">&#160;</td><td class="mdescRight">call process in all modules <br /></td></tr>
+<tr class="separator:aecbdf593d7e4341a6dd7971d10f1d20d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad51c06e39e82bd82f7cd1c499a4995a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aad51c06e39e82bd82f7cd1c499a4995a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>run</b> (<a class="el" href="classcrpropa_1_1Candidate.html">Candidate</a> *candidate, bool recursive=true)</td></tr>
 <tr class="separator:aad51c06e39e82bd82f7cd1c499a4995a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -158,6 +159,12 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getDescription
 <tr class="memitem:ad093fb1d10f7f3c5845e2992563b58d6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad093fb1d10f7f3c5845e2992563b58d6"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>showModules</b> () const </td></tr>
 <tr class="separator:ad093fb1d10f7f3c5845e2992563b58d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3406b56004afdbe7a1815a541d40de99"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3406b56004afdbe7a1815a541d40de99"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setDescription</b> (const std::string &amp;description)</td></tr>
+<tr class="separator:a3406b56004afdbe7a1815a541d40de99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac87b458918f5201bb1a19f38b5880e8c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac87b458918f5201bb1a19f38b5880e8c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>process</b> (<a class="el" href="classcrpropa_1_1ref__ptr.html">ref_ptr</a>&lt; <a class="el" href="classcrpropa_1_1Candidate.html">Candidate</a> &gt; candidate) const </td></tr>
+<tr class="separator:ac87b458918f5201bb1a19f38b5880e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01685378d3b045c351f0dc7b9b8d8b1e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a01685378d3b045c351f0dc7b9b8d8b1e"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>addReference</b> () const </td></tr>
 <tr class="separator:a01685378d3b045c351f0dc7b9b8d8b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,7 +185,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>getReferenceCount</
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jun 1 2015 21:28:22 for CRPropa 3.0 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jun 26 2015 09:35:13 for CRPropa 3.0 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

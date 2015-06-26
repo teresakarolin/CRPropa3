@@ -102,43 +102,56 @@ Inheritance diagram for MinimumRedshift:</div>
  <div class="center">
   <img src="classcrpropa_1_1MinimumRedshift.png" usemap="#MinimumRedshift_map" alt=""/>
   <map id="MinimumRedshift_map" name="MinimumRedshift_map">
-<area href="classcrpropa_1_1Module.html" title="Abstract base class for modules. " alt="Module" shape="rect" coords="0,56,106,80"/>
-<area href="classcrpropa_1_1Referenced.html" title="Base class for reference counting. " alt="Referenced" shape="rect" coords="0,0,106,24"/>
+<area href="classcrpropa_1_1AbstractCondition.html" title="Abstract Module providing common features for conditional modules. " alt="AbstractCondition" shape="rect" coords="0,112,112,136"/>
+<area href="classcrpropa_1_1Module.html" title="Abstract base class for modules. " alt="Module" shape="rect" coords="0,56,112,80"/>
+<area href="classcrpropa_1_1Referenced.html" title="Base class for reference counting. " alt="Referenced" shape="rect" coords="0,0,112,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab2fa7ae0763069aefe0bcb0223f617b7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2fa7ae0763069aefe0bcb0223f617b7"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>MinimumRedshift</b> (double zmin=0, std::string flag=&quot;Deactivated&quot;)</td></tr>
-<tr class="separator:ab2fa7ae0763069aefe0bcb0223f617b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dc81a0ed86f0d3a23a5fd1614390f79"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9dc81a0ed86f0d3a23a5fd1614390f79"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>MinimumRedshift</b> (double zmin=0)</td></tr>
+<tr class="separator:a9dc81a0ed86f0d3a23a5fd1614390f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32774ab5a8c6a279310ecef946f8df27"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32774ab5a8c6a279310ecef946f8df27"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setMinimumRedshift</b> (double z)</td></tr>
 <tr class="separator:a32774ab5a8c6a279310ecef946f8df27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad4a2a6a0cebdcb6506aa1e7d41b2981"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aad4a2a6a0cebdcb6506aa1e7d41b2981"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>getMinimumRedshift</b> ()</td></tr>
 <tr class="separator:aad4a2a6a0cebdcb6506aa1e7d41b2981"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee45ab12603d2136282554cbdf4c58fa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee45ab12603d2136282554cbdf4c58fa"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setFlag</b> (std::string flag)</td></tr>
-<tr class="separator:aee45ab12603d2136282554cbdf4c58fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0196f9c54d7ce12196def52db428b55a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0196f9c54d7ce12196def52db428b55a"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getFlag</b> () const </td></tr>
-<tr class="separator:a0196f9c54d7ce12196def52db428b55a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa05091ec7bf41aaa81f17fb0752553e1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa05091ec7bf41aaa81f17fb0752553e1"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getDescription</b> () const </td></tr>
 <tr class="separator:aa05091ec7bf41aaa81f17fb0752553e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecbdf593d7e4341a6dd7971d10f1d20d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aecbdf593d7e4341a6dd7971d10f1d20d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>process</b> (<a class="el" href="classcrpropa_1_1Candidate.html">Candidate</a> *candidate) const </td></tr>
 <tr class="separator:aecbdf593d7e4341a6dd7971d10f1d20d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebd4e5e81023738066df735b3300dff2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aebd4e5e81023738066df735b3300dff2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>onReject</b> (<a class="el" href="classcrpropa_1_1Module.html">Module</a> *rejectAction)</td></tr>
+<tr class="separator:aebd4e5e81023738066df735b3300dff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05db2b5da9736601ca96d3eea5c562aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a05db2b5da9736601ca96d3eea5c562aa"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>onAccept</b> (<a class="el" href="classcrpropa_1_1Module.html">Module</a> *acceptAction)</td></tr>
+<tr class="separator:a05db2b5da9736601ca96d3eea5c562aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a860a0bca8b7e2b1b91d9e04e48ecf6d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a860a0bca8b7e2b1b91d9e04e48ecf6d1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setMakeRejectedInactive</b> (bool makeInactive)</td></tr>
+<tr class="separator:a860a0bca8b7e2b1b91d9e04e48ecf6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07bda1f6dd395aeeeed9bb69a63f1cec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a07bda1f6dd395aeeeed9bb69a63f1cec"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setMakeAcceptedInactive</b> (bool makeInactive)</td></tr>
+<tr class="separator:a07bda1f6dd395aeeeed9bb69a63f1cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae08c5c248fcfda58fbb957a09b1beac3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae08c5c248fcfda58fbb957a09b1beac3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setRejectFlag</b> (std::string key, std::string value)</td></tr>
+<tr class="separator:ae08c5c248fcfda58fbb957a09b1beac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d8bdedeae8c5436c185f8c1470e73f5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d8bdedeae8c5436c185f8c1470e73f5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setAcceptFlag</b> (std::string key, std::string value)</td></tr>
+<tr class="separator:a6d8bdedeae8c5436c185f8c1470e73f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eb9f9eb78e9211f9a830d69e5056897"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2eb9f9eb78e9211f9a830d69e5056897"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>beginRun</b> ()</td></tr>
+<tr class="separator:a2eb9f9eb78e9211f9a830d69e5056897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7613d34411574188b7054e5290fe92b0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7613d34411574188b7054e5290fe92b0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>endRun</b> ()</td></tr>
+<tr class="separator:a7613d34411574188b7054e5290fe92b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3406b56004afdbe7a1815a541d40de99"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3406b56004afdbe7a1815a541d40de99"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setDescription</b> (const std::string &amp;description)</td></tr>
 <tr class="separator:a3406b56004afdbe7a1815a541d40de99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6df990121f30843605cd81d652f162d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6df990121f30843605cd81d652f162d9"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>beginRun</b> ()</td></tr>
-<tr class="separator:a6df990121f30843605cd81d652f162d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80bd6066e28414004fb7dac180a4dd4f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80bd6066e28414004fb7dac180a4dd4f"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>endRun</b> ()</td></tr>
-<tr class="separator:a80bd6066e28414004fb7dac180a4dd4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac87b458918f5201bb1a19f38b5880e8c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac87b458918f5201bb1a19f38b5880e8c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>process</b> (<a class="el" href="classcrpropa_1_1ref__ptr.html">ref_ptr</a>&lt; <a class="el" href="classcrpropa_1_1Candidate.html">Candidate</a> &gt; candidate) const </td></tr>
 <tr class="separator:ac87b458918f5201bb1a19f38b5880e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,11 +172,11 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>getReferenceCount</
 <div class="textblock"><p>Deactivates the candidate below a minimum redshift. </p>
 <p>This modules deactivates the candidate below a given minimum redshift. In that case the property ("Deactivated", module::description) is set. </p>
 
-<p>Definition at line <a class="el" href="BreakCondition_8h_source.html#l00057">57</a> of file <a class="el" href="BreakCondition_8h_source.html">BreakCondition.h</a>.</p>
+<p>Definition at line <a class="el" href="BreakCondition_8h_source.html#l00050">50</a> of file <a class="el" href="BreakCondition_8h_source.html">BreakCondition.h</a>.</p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jun 1 2015 21:28:22 for CRPropa 3.0 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jun 26 2015 09:35:13 for CRPropa 3.0 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>
