@@ -13,7 +13,6 @@ var searchData=
   ['observerredshiftwindow',['ObserverRedshiftWindow',['../classcrpropa_1_1ObserverRedshiftWindow.html',1,'crpropa']]],
   ['observersmallsphere',['ObserverSmallSphere',['../classcrpropa_1_1ObserverSmallSphere.html',1,'crpropa']]],
   ['observertracking',['ObserverTracking',['../classcrpropa_1_1ObserverTracking.html',1,'crpropa']]],
-  ['onedimobserver',['OneDimObserver',['../classOneDimObserver.html',1,'']]],
   ['operator_28_29',['operator()',['../classcrpropa_1_1Random.html#a8ba58318b0e39bc2e453dd4dcac1f00f',1,'crpropa::Random']]],
   ['ouputrow',['OuputRow',['../structcrpropa_1_1OuputRow.html',1,'crpropa']]],
   ['output',['Output',['../classcrpropa_1_1Output.html',1,'crpropa']]]
