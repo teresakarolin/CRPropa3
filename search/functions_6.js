@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['initialize',['initialize',['../classcrpropa_1_1TurbulentMagneticField.html#a25a40b6614565f755233080a384c35f1',1,'crpropa::TurbulentMagneticField::initialize()'],['../classcrpropa_1_1TurbulentMagneticField.html#a0142eee712b833e5cbd3facf8b996fca',1,'crpropa::TurbulentMagneticField::initialize(int seed)']]],
-  ['interpolate',['interpolate',['../classcrpropa_1_1Grid.html#a0e29ed14c20e19d08d85cabab0745bb1',1,'crpropa::Grid']]]
+  ['magneticlens',['MagneticLens',['../classcrpropa_1_1MagneticLens.html#a643cd62aed5c704da458d60bb603c326',1,'crpropa::MagneticLens::MagneticLens()'],['../classcrpropa_1_1MagneticLens.html#a00fe2b9e680ef54314604383f4ad5543',1,'crpropa::MagneticLens::MagneticLens(uint8_t healpixorder)'],['../classcrpropa_1_1MagneticLens.html#afe8b3bb801ef96e978ddab414f8535cc',1,'crpropa::MagneticLens::MagneticLens(const string &amp;filename)']]]
 ];

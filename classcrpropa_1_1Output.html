@@ -91,7 +91,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classcrpropa_1_1Output-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Output Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">Output Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -103,10 +103,9 @@ Inheritance diagram for Output:</div>
  <div class="center">
   <img src="classcrpropa_1_1Output.png" usemap="#Output_map" alt=""/>
   <map id="Output_map" name="Output_map">
-<area href="classcrpropa_1_1Module.html" title="Abstract base class for modules. " alt="Module" shape="rect" coords="46,56,128,80"/>
-<area href="classcrpropa_1_1Referenced.html" title="Base class for reference counting. " alt="Referenced" shape="rect" coords="46,0,128,24"/>
-<area href="classcrpropa_1_1HDF5Output.html" alt="HDF5Output" shape="rect" coords="0,168,82,192"/>
-<area href="classcrpropa_1_1TextOutput.html" title="Configurable plain text output for cosmic ray information. " alt="TextOutput" shape="rect" coords="92,168,174,192"/>
+<area href="classcrpropa_1_1Module.html" title="Abstract base class for modules. " alt="Module" shape="rect" coords="0,56,78,80"/>
+<area href="classcrpropa_1_1Referenced.html" title="Base class for reference counting. " alt="Referenced" shape="rect" coords="0,0,78,24"/>
+<area href="classcrpropa_1_1TextOutput.html" title="Configurable plain text output for cosmic ray information. " alt="TextOutput" shape="rect" coords="0,168,78,192"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -176,18 +175,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>disableAll</b> ()</td
 <tr class="memitem:a1f9c57e1760e336d10856bb5367a10d8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1f9c57e1760e336d10856bb5367a10d8"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>set1D</b> (bool value)</td></tr>
 <tr class="separator:a1f9c57e1760e336d10856bb5367a10d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecbdf593d7e4341a6dd7971d10f1d20d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aecbdf593d7e4341a6dd7971d10f1d20d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>process</b> (<a class="el" href="classcrpropa_1_1Candidate.html">Candidate</a> *candidate) const </td></tr>
-<tr class="separator:aecbdf593d7e4341a6dd7971d10f1d20d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2eb9f9eb78e9211f9a830d69e5056897"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2eb9f9eb78e9211f9a830d69e5056897"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>beginRun</b> ()</td></tr>
-<tr class="separator:a2eb9f9eb78e9211f9a830d69e5056897"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7613d34411574188b7054e5290fe92b0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7613d34411574188b7054e5290fe92b0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>endRun</b> ()</td></tr>
-<tr class="separator:a7613d34411574188b7054e5290fe92b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57eaad5741d0ece8958fa0e176cab387"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57eaad5741d0ece8958fa0e176cab387"></a>
-virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getDescription</b> () const  =0</td></tr>
-<tr class="separator:a57eaad5741d0ece8958fa0e176cab387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2093bb880a2b64d27c133b25ee82701c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2093bb880a2b64d27c133b25ee82701c"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>getCount</b> () const </td></tr>
+<tr class="separator:a2093bb880a2b64d27c133b25ee82701c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33acfd40920bd0dc50f6f4e5b7ede161"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a33acfd40920bd0dc50f6f4e5b7ede161"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>process</b> (<a class="el" href="classcrpropa_1_1Candidate.html">Candidate</a> *) const </td></tr>
+<tr class="separator:a33acfd40920bd0dc50f6f4e5b7ede161"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ed943b6ae07b0f0a64b5acb31afa153"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ed943b6ae07b0f0a64b5acb31afa153"></a>
+virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getDescription</b> () const </td></tr>
+<tr class="separator:a7ed943b6ae07b0f0a64b5acb31afa153"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3406b56004afdbe7a1815a541d40de99"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3406b56004afdbe7a1815a541d40de99"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setDescription</b> (const std::string &amp;description)</td></tr>
 <tr class="separator:a3406b56004afdbe7a1815a541d40de99"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -214,7 +210,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>getReferenceCount</
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 4 2016 20:17:44 for CRPropa 3.0 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 23 2016 14:48:17 for CRPropa 3.0 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

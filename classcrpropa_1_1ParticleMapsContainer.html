@@ -109,8 +109,6 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>getNumberOfPixels</
 <tr class="memitem:a6df900c2405c72a161f88a845b5c42de"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6df900c2405c72a161f88a845b5c42de"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>addParticle</b> (const int particleId, double energy, const <a class="el" href="classcrpropa_1_1Vector3.html">Vector3d</a> &amp;v, double weight=1)</td></tr>
 <tr class="separator:a6df900c2405c72a161f88a845b5c42de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d568cc9fab01584988a2f72b5f434f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrpropa_1_1ParticleMapsContainer.html#a4d568cc9fab01584988a2f72b5f434f9">addParticlesFromFile</a> (const std::string inputFileName, double sourceEnergyWeightExponent=0)</td></tr>
-<tr class="separator:a4d568cc9fab01584988a2f72b5f434f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a425b3dc176e8219152ca554c33c12459"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a425b3dc176e8219152ca554c33c12459"></a>
 std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getParticleIds</b> ()</td></tr>
 <tr class="separator:a425b3dc176e8219152ca554c33c12459"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,33 +184,6 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>getWeight</b> (int 
 
 </div>
 </div>
-<a class="anchor" id="a4d568cc9fab01584988a2f72b5f434f9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void addParticlesFromFile </td>
-          <td>(</td>
-          <td class="paramtype">const std::string&#160;</td>
-          <td class="paramname"><em>inputFileName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>sourceEnergyWeightExponent</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>reads the particles from the given file and weights the particles with the energy of the mother particle at the source. this assumes that the particles in the fiels are observed at earth and the galactic center is in directon (0,1,0) and the galactic north-pole is in direction (0,0,1). The energy in the fileneeds to be in eV, as it should be for CrPropa output </p>
-
-</div>
-</div>
 <a class="anchor" id="a49466699172d0a573711a7491328c444"></a>
 <div class="memitem">
 <div class="memproto">
@@ -243,7 +214,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>getWeight</b> (int 
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 4 2016 20:17:44 for CRPropa 3.0 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 23 2016 14:48:17 for CRPropa 3.0 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

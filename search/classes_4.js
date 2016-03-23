@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['futureredshift',['FutureRedshift',['../classcrpropa_1_1FutureRedshift.html',1,'crpropa']]]
+  ['grid',['Grid',['../classcrpropa_1_1Grid.html',1,'crpropa']]]
 ];

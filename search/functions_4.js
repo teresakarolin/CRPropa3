@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['endrun',['endRun',['../classcrpropa_1_1ModuleList.html#a7613d34411574188b7054e5290fe92b0',1,'crpropa::ModuleList']]]
+  ['interpolate',['interpolate',['../classcrpropa_1_1Grid.html#a0e29ed14c20e19d08d85cabab0745bb1',1,'crpropa::Grid']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['hdf5output',['HDF5Output',['../classcrpropa_1_1HDF5Output.html',1,'crpropa']]]
+  ['lenspart',['LensPart',['../classcrpropa_1_1LensPart.html',1,'crpropa']]],
+  ['logarithmicspiralfield',['LogarithmicSpiralField',['../classcrpropa_1_1LogarithmicSpiralField.html',1,'crpropa']]]
 ];

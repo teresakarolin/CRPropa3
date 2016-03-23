@@ -103,16 +103,17 @@ Inheritance diagram for ObserverFeature:</div>
   <img src="classcrpropa_1_1ObserverFeature.png" usemap="#ObserverFeature_map" alt=""/>
   <map id="ObserverFeature_map" name="ObserverFeature_map">
 <area href="classcrpropa_1_1Referenced.html" title="Base class for reference counting. " alt="Referenced" shape="rect" coords="0,0,155,24"/>
-<area href="classcrpropa_1_1ObserverElectronVeto.html" title="Veto for electrons and positrons. " alt="ObserverElectronVeto" shape="rect" coords="165,112,320,136"/>
-<area href="classcrpropa_1_1ObserverInactiveVeto.html" title="Veto for inactive candidates. " alt="ObserverInactiveVeto" shape="rect" coords="165,168,320,192"/>
-<area href="classcrpropa_1_1ObserverLargeSphere.html" title="Detects particles upon exiting a sphere. " alt="ObserverLargeSphere" shape="rect" coords="165,224,320,248"/>
-<area href="classcrpropa_1_1ObserverNeutrinoVeto.html" title="Veto for neutrinos. " alt="ObserverNeutrinoVeto" shape="rect" coords="165,280,320,304"/>
-<area href="classcrpropa_1_1ObserverNucleusVeto.html" title="Veto for nuclei (including protons and neutrons) " alt="ObserverNucleusVeto" shape="rect" coords="165,336,320,360"/>
-<area href="classcrpropa_1_1ObserverPhotonVeto.html" title="Veto for photons. " alt="ObserverPhotonVeto" shape="rect" coords="165,392,320,416"/>
-<area href="classcrpropa_1_1ObserverPoint.html" title="Detects particles when reaching x = 0. " alt="ObserverPoint" shape="rect" coords="165,448,320,472"/>
-<area href="classcrpropa_1_1ObserverRedshiftWindow.html" title="Detects particles in a given redshift window. " alt="ObserverRedshiftWindow" shape="rect" coords="165,504,320,528"/>
-<area href="classcrpropa_1_1ObserverSmallSphere.html" title="Detects particles upon entering a sphere. " alt="ObserverSmallSphere" shape="rect" coords="165,560,320,584"/>
-<area href="classcrpropa_1_1ObserverTracking.html" title="Tracks particles inside a sphere. " alt="ObserverTracking" shape="rect" coords="165,616,320,640"/>
+<area href="classcrpropa_1_1ObserverDetectAll.html" title="Detects all particles. " alt="ObserverDetectAll" shape="rect" coords="165,112,320,136"/>
+<area href="classcrpropa_1_1ObserverElectronVeto.html" title="Veto for electrons and positrons. " alt="ObserverElectronVeto" shape="rect" coords="165,168,320,192"/>
+<area href="classcrpropa_1_1ObserverInactiveVeto.html" title="Veto for inactive candidates. " alt="ObserverInactiveVeto" shape="rect" coords="165,224,320,248"/>
+<area href="classcrpropa_1_1ObserverLargeSphere.html" title="Detects particles upon exiting a sphere. " alt="ObserverLargeSphere" shape="rect" coords="165,280,320,304"/>
+<area href="classcrpropa_1_1ObserverNeutrinoVeto.html" title="Veto for neutrinos. " alt="ObserverNeutrinoVeto" shape="rect" coords="165,336,320,360"/>
+<area href="classcrpropa_1_1ObserverNucleusVeto.html" title="Veto for nuclei (including protons and neutrons) " alt="ObserverNucleusVeto" shape="rect" coords="165,392,320,416"/>
+<area href="classcrpropa_1_1ObserverPhotonVeto.html" title="Veto for photons. " alt="ObserverPhotonVeto" shape="rect" coords="165,448,320,472"/>
+<area href="classcrpropa_1_1ObserverPoint.html" title="Detects particles when reaching x = 0. " alt="ObserverPoint" shape="rect" coords="165,504,320,528"/>
+<area href="classcrpropa_1_1ObserverRedshiftWindow.html" title="Detects particles in a given redshift window. " alt="ObserverRedshiftWindow" shape="rect" coords="165,560,320,584"/>
+<area href="classcrpropa_1_1ObserverSmallSphere.html" title="Detects particles upon entering a sphere. " alt="ObserverSmallSphere" shape="rect" coords="165,616,320,640"/>
+<area href="classcrpropa_1_1ObserverTracking.html" title="Tracks particles inside a sphere. " alt="ObserverTracking" shape="rect" coords="165,672,320,696"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -127,12 +128,6 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onDetection</
 <tr class="memitem:a7ed943b6ae07b0f0a64b5acb31afa153"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ed943b6ae07b0f0a64b5acb31afa153"></a>
 virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getDescription</b> () const </td></tr>
 <tr class="separator:a7ed943b6ae07b0f0a64b5acb31afa153"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6df990121f30843605cd81d652f162d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6df990121f30843605cd81d652f162d9"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>beginRun</b> ()</td></tr>
-<tr class="separator:a6df990121f30843605cd81d652f162d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80bd6066e28414004fb7dac180a4dd4f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80bd6066e28414004fb7dac180a4dd4f"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>endRun</b> ()</td></tr>
-<tr class="separator:a80bd6066e28414004fb7dac180a4dd4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01685378d3b045c351f0dc7b9b8d8b1e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a01685378d3b045c351f0dc7b9b8d8b1e"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>addReference</b> () const </td></tr>
 <tr class="separator:a01685378d3b045c351f0dc7b9b8d8b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,7 +148,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>getReferenceCount</
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 4 2016 20:17:42 for CRPropa 3.0 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 23 2016 14:48:15 for CRPropa 3.0 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

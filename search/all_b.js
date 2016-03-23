@@ -1,16 +1,18 @@
 var searchData=
 [
-  ['magneticfield',['MagneticField',['../classcrpropa_1_1MagneticField.html',1,'crpropa']]],
-  ['magneticfieldevolution',['MagneticFieldEvolution',['../classcrpropa_1_1MagneticFieldEvolution.html',1,'crpropa']]],
-  ['magneticfieldgrid',['MagneticFieldGrid',['../classcrpropa_1_1MagneticFieldGrid.html',1,'crpropa']]],
-  ['magneticfieldlist',['MagneticFieldList',['../classcrpropa_1_1MagneticFieldList.html',1,'crpropa']]],
-  ['magneticlens',['MagneticLens',['../classcrpropa_1_1MagneticLens.html',1,'crpropa']]],
-  ['magneticlens',['MagneticLens',['../classcrpropa_1_1MagneticLens.html#a643cd62aed5c704da458d60bb603c326',1,'crpropa::MagneticLens::MagneticLens()'],['../classcrpropa_1_1MagneticLens.html#a00fe2b9e680ef54314604383f4ad5543',1,'crpropa::MagneticLens::MagneticLens(uint8_t healpixorder)'],['../classcrpropa_1_1MagneticLens.html#afe8b3bb801ef96e978ddab414f8535cc',1,'crpropa::MagneticLens::MagneticLens(const string &amp;filename)']]],
-  ['maximumtrajectorylength',['MaximumTrajectoryLength',['../classcrpropa_1_1MaximumTrajectoryLength.html',1,'crpropa']]],
-  ['minimumenergy',['MinimumEnergy',['../classcrpropa_1_1MinimumEnergy.html',1,'crpropa']]],
-  ['minimumredshift',['MinimumRedshift',['../classcrpropa_1_1MinimumRedshift.html',1,'crpropa']]],
-  ['modulatedmagneticfieldgrid',['ModulatedMagneticFieldGrid',['../classcrpropa_1_1ModulatedMagneticFieldGrid.html',1,'crpropa']]],
-  ['module',['Module',['../classcrpropa_1_1Module.html',1,'crpropa']]],
-  ['modulelist',['ModuleList',['../classcrpropa_1_1ModuleList.html',1,'crpropa']]],
-  ['modulelistrunner',['ModuleListRunner',['../classcrpropa_1_1ModuleListRunner.html',1,'crpropa']]]
+  ['observer',['Observer',['../classcrpropa_1_1Observer.html',1,'crpropa']]],
+  ['observerdetectall',['ObserverDetectAll',['../classcrpropa_1_1ObserverDetectAll.html',1,'crpropa']]],
+  ['observerelectronveto',['ObserverElectronVeto',['../classcrpropa_1_1ObserverElectronVeto.html',1,'crpropa']]],
+  ['observerfeature',['ObserverFeature',['../classcrpropa_1_1ObserverFeature.html',1,'crpropa']]],
+  ['observerinactiveveto',['ObserverInactiveVeto',['../classcrpropa_1_1ObserverInactiveVeto.html',1,'crpropa']]],
+  ['observerlargesphere',['ObserverLargeSphere',['../classcrpropa_1_1ObserverLargeSphere.html',1,'crpropa']]],
+  ['observerneutrinoveto',['ObserverNeutrinoVeto',['../classcrpropa_1_1ObserverNeutrinoVeto.html',1,'crpropa']]],
+  ['observernucleusveto',['ObserverNucleusVeto',['../classcrpropa_1_1ObserverNucleusVeto.html',1,'crpropa']]],
+  ['observerphotonveto',['ObserverPhotonVeto',['../classcrpropa_1_1ObserverPhotonVeto.html',1,'crpropa']]],
+  ['observerpoint',['ObserverPoint',['../classcrpropa_1_1ObserverPoint.html',1,'crpropa']]],
+  ['observerredshiftwindow',['ObserverRedshiftWindow',['../classcrpropa_1_1ObserverRedshiftWindow.html',1,'crpropa']]],
+  ['observersmallsphere',['ObserverSmallSphere',['../classcrpropa_1_1ObserverSmallSphere.html',1,'crpropa']]],
+  ['observertracking',['ObserverTracking',['../classcrpropa_1_1ObserverTracking.html',1,'crpropa']]],
+  ['operator_28_29',['operator()',['../classcrpropa_1_1Random.html#a8ba58318b0e39bc2e453dd4dcac1f00f',1,'crpropa::Random']]],
+  ['output',['Output',['../classcrpropa_1_1Output.html',1,'crpropa']]]
 ];

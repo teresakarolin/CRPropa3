@@ -140,26 +140,28 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordtype">bool</span> removeProperty(<span class="keyword">const</span> std::string &amp;name);</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordtype">bool</span> hasProperty(<span class="keyword">const</span> std::string &amp;name) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classcrpropa_1_1Candidate.html#a80842e10b63fde676ca20525cfb42c73">addSecondary</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keywordtype">double</span> energy);</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordtype">void</span> clearSecondaries();</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        std::string getDescription() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classcrpropa_1_1Candidate.html#a5ea13ee8fb4a836c6f324644ff986149">addSecondary</a>(<a class="code" href="classcrpropa_1_1Candidate.html">Candidate</a> *c);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classcrpropa_1_1Candidate.html#a5ea13ee8fb4a836c6f324644ff986149">addSecondary</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keywordtype">double</span> energy);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classcrpropa_1_1Candidate.html#a5ea13ee8fb4a836c6f324644ff986149">addSecondary</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keywordtype">double</span> energy, <a class="code" href="classcrpropa_1_1Vector3.html">Vector3d</a> position);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordtype">void</span> clearSecondaries();</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <a class="code" href="classcrpropa_1_1ref__ptr.html">ref_ptr&lt;Candidate&gt;</a> <a class="code" href="classcrpropa_1_1Candidate.html#a5c2d4fa047b3275cc53ace9a8d1e7a8e">clone</a>(<span class="keywordtype">bool</span> recursive = <span class="keyword">false</span>) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;};</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;} <span class="comment">// namespace crpropa</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        std::string getDescription() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <a class="code" href="classcrpropa_1_1ref__ptr.html">ref_ptr&lt;Candidate&gt;</a> <a class="code" href="classcrpropa_1_1Candidate.html#a5c2d4fa047b3275cc53ace9a8d1e7a8e">clone</a>(<span class="keywordtype">bool</span> recursive = <span class="keyword">false</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;};</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="preprocessor">#endif // CRPROPA_CANDIDATE_H</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;} <span class="comment">// namespace crpropa</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="preprocessor">#endif // CRPROPA_CANDIDATE_H</span></div>
 <div class="ttc" id="classcrpropa_1_1Candidate_html_a1fa209d6e1a65e798c38fa319f3dd45b"><div class="ttname"><a href="classcrpropa_1_1Candidate.html#a1fa209d6e1a65e798c38fa319f3dd45b">crpropa::Candidate::current</a></div><div class="ttdeci">ParticleState current</div><div class="ttdef"><b>Definition:</b> <a href="Candidate_8h_source.html#l00025">Candidate.h:25</a></div></div>
 <div class="ttc" id="classcrpropa_1_1Candidate_html_ac93b6ff689e3b7bb41d5af15c88f5db7"><div class="ttname"><a href="classcrpropa_1_1Candidate.html#ac93b6ff689e3b7bb41d5af15c88f5db7">crpropa::Candidate::limitNextStep</a></div><div class="ttdeci">void limitNextStep(double step)</div></div>
 <div class="ttc" id="classcrpropa_1_1Referenced_html"><div class="ttname"><a href="classcrpropa_1_1Referenced.html">crpropa::Referenced</a></div><div class="ttdoc">Base class for reference counting. </div><div class="ttdef"><b>Definition:</b> <a href="Referenced_8h_source.html#l00023">Referenced.h:23</a></div></div>
 <div class="ttc" id="classcrpropa_1_1Candidate_html_ab2ba7802b9b0cfbbdc790b3f1a0737be"><div class="ttname"><a href="classcrpropa_1_1Candidate.html#ab2ba7802b9b0cfbbdc790b3f1a0737be">crpropa::Candidate::previous</a></div><div class="ttdeci">ParticleState previous</div><div class="ttdef"><b>Definition:</b> <a href="Candidate_8h_source.html#l00026">Candidate.h:26</a></div></div>
 <div class="ttc" id="classcrpropa_1_1Vector3_html"><div class="ttname"><a href="classcrpropa_1_1Vector3.html">crpropa::Vector3&lt; double &gt;</a></div></div>
-<div class="ttc" id="classcrpropa_1_1Candidate_html_a80842e10b63fde676ca20525cfb42c73"><div class="ttname"><a href="classcrpropa_1_1Candidate.html#a80842e10b63fde676ca20525cfb42c73">crpropa::Candidate::addSecondary</a></div><div class="ttdeci">void addSecondary(int id, double energy)</div></div>
 <div class="ttc" id="classcrpropa_1_1Candidate_html_a68967a86ec6cebe3e4d2bc9291199538"><div class="ttname"><a href="classcrpropa_1_1Candidate.html#a68967a86ec6cebe3e4d2bc9291199538">crpropa::Candidate::source</a></div><div class="ttdeci">ParticleState source</div><div class="ttdef"><b>Definition:</b> <a href="Candidate_8h_source.html#l00023">Candidate.h:23</a></div></div>
 <div class="ttc" id="classcrpropa_1_1Candidate_html_ae1573bd9f9b414413c82039c870375f2"><div class="ttname"><a href="classcrpropa_1_1Candidate.html#ae1573bd9f9b414413c82039c870375f2">crpropa::Candidate::setCurrentStep</a></div><div class="ttdeci">void setCurrentStep(double step)</div></div>
 <div class="ttc" id="classcrpropa_1_1ParticleState_html"><div class="ttname"><a href="classcrpropa_1_1ParticleState.html">crpropa::ParticleState</a></div><div class="ttdoc">State of the particle: ID, energy, position, direction. </div><div class="ttdef"><b>Definition:</b> <a href="ParticleState_8h_source.html#l00020">ParticleState.h:20</a></div></div>
+<div class="ttc" id="classcrpropa_1_1Candidate_html_a5ea13ee8fb4a836c6f324644ff986149"><div class="ttname"><a href="classcrpropa_1_1Candidate.html#a5ea13ee8fb4a836c6f324644ff986149">crpropa::Candidate::addSecondary</a></div><div class="ttdeci">void addSecondary(Candidate *c)</div></div>
 <div class="ttc" id="namespacecrpropa_html"><div class="ttname"><a href="namespacecrpropa.html">crpropa</a></div><div class="ttdef"><b>Definition:</b> <a href="Candidate_8h_source.html#l00012">Candidate.h:12</a></div></div>
 <div class="ttc" id="classcrpropa_1_1ref__ptr_html"><div class="ttname"><a href="classcrpropa_1_1ref__ptr.html">crpropa::ref_ptr</a></div><div class="ttdef"><b>Definition:</b> <a href="Referenced_8h_source.html#l00105">Referenced.h:105</a></div></div>
 <div class="ttc" id="classcrpropa_1_1Candidate_html_a32900f357403f1b437d93d309c8dafa8"><div class="ttname"><a href="classcrpropa_1_1Candidate.html#a32900f357403f1b437d93d309c8dafa8">crpropa::Candidate::setNextStep</a></div><div class="ttdeci">void setNextStep(double step)</div></div>
@@ -171,7 +173,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 4 2016 20:17:36 for CRPropa 3.0 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 23 2016 14:48:09 for CRPropa 3.0 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

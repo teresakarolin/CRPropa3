@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['uniformmagneticfield',['UniformMagneticField',['../classcrpropa_1_1UniformMagneticField.html',1,'crpropa']]]
+  ['xmlexecute',['XmlExecute',['../classcrpropa_1_1XmlExecute.html',1,'crpropa']]]
 ];

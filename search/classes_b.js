@@ -1,18 +1,17 @@
 var searchData=
 [
-  ['observer',['Observer',['../classcrpropa_1_1Observer.html',1,'crpropa']]],
-  ['observer1d',['Observer1D',['../classcrpropa_1_1Observer1D.html',1,'crpropa']]],
-  ['observerelectronveto',['ObserverElectronVeto',['../classcrpropa_1_1ObserverElectronVeto.html',1,'crpropa']]],
-  ['observerfeature',['ObserverFeature',['../classcrpropa_1_1ObserverFeature.html',1,'crpropa']]],
-  ['observerinactiveveto',['ObserverInactiveVeto',['../classcrpropa_1_1ObserverInactiveVeto.html',1,'crpropa']]],
-  ['observerlargesphere',['ObserverLargeSphere',['../classcrpropa_1_1ObserverLargeSphere.html',1,'crpropa']]],
-  ['observerneutrinoveto',['ObserverNeutrinoVeto',['../classcrpropa_1_1ObserverNeutrinoVeto.html',1,'crpropa']]],
-  ['observernucleusveto',['ObserverNucleusVeto',['../classcrpropa_1_1ObserverNucleusVeto.html',1,'crpropa']]],
-  ['observerphotonveto',['ObserverPhotonVeto',['../classcrpropa_1_1ObserverPhotonVeto.html',1,'crpropa']]],
-  ['observerpoint',['ObserverPoint',['../classcrpropa_1_1ObserverPoint.html',1,'crpropa']]],
-  ['observerredshiftwindow',['ObserverRedshiftWindow',['../classcrpropa_1_1ObserverRedshiftWindow.html',1,'crpropa']]],
-  ['observersmallsphere',['ObserverSmallSphere',['../classcrpropa_1_1ObserverSmallSphere.html',1,'crpropa']]],
-  ['observertracking',['ObserverTracking',['../classcrpropa_1_1ObserverTracking.html',1,'crpropa']]],
-  ['ouputrow',['OuputRow',['../structcrpropa_1_1OuputRow.html',1,'crpropa']]],
-  ['output',['Output',['../classcrpropa_1_1Output.html',1,'crpropa']]]
+  ['random',['Random',['../classcrpropa_1_1Random.html',1,'crpropa']]],
+  ['redshift',['Redshift',['../classcrpropa_1_1Redshift.html',1,'crpropa']]],
+  ['ref_5fptr',['ref_ptr',['../classcrpropa_1_1ref__ptr.html',1,'crpropa']]],
+  ['ref_5fptr_3c_20crpropa_3a_3acandidate_20_3e',['ref_ptr&lt; crpropa::Candidate &gt;',['../classcrpropa_1_1ref__ptr.html',1,'crpropa']]],
+  ['ref_5fptr_3c_20crpropa_3a_3agrid_20_3e',['ref_ptr&lt; crpropa::Grid &gt;',['../classcrpropa_1_1ref__ptr.html',1,'crpropa']]],
+  ['ref_5fptr_3c_20crpropa_3a_3amagneticfield_20_3e',['ref_ptr&lt; crpropa::MagneticField &gt;',['../classcrpropa_1_1ref__ptr.html',1,'crpropa']]],
+  ['ref_5fptr_3c_20crpropa_3a_3amodule_20_3e',['ref_ptr&lt; crpropa::Module &gt;',['../classcrpropa_1_1ref__ptr.html',1,'crpropa']]],
+  ['ref_5fptr_3c_20crpropa_3a_3amodulelist_20_3e',['ref_ptr&lt; crpropa::ModuleList &gt;',['../classcrpropa_1_1ref__ptr.html',1,'crpropa']]],
+  ['ref_5fptr_3c_20crpropa_3a_3aobserverfeature_20_3e',['ref_ptr&lt; crpropa::ObserverFeature &gt;',['../classcrpropa_1_1ref__ptr.html',1,'crpropa']]],
+  ['ref_5fptr_3c_20crpropa_3a_3asource_20_3e',['ref_ptr&lt; crpropa::Source &gt;',['../classcrpropa_1_1ref__ptr.html',1,'crpropa']]],
+  ['ref_5fptr_3c_20crpropa_3a_3asourcefeature_20_3e',['ref_ptr&lt; crpropa::SourceFeature &gt;',['../classcrpropa_1_1ref__ptr.html',1,'crpropa']]],
+  ['ref_5fptr_3c_20module_20_3e',['ref_ptr&lt; Module &gt;',['../classcrpropa_1_1ref__ptr.html',1,'crpropa']]],
+  ['referenced',['Referenced',['../classcrpropa_1_1Referenced.html',1,'crpropa']]],
+  ['reflectivebox',['ReflectiveBox',['../classcrpropa_1_1ReflectiveBox.html',1,'crpropa']]]
 ];

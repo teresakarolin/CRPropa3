@@ -101,7 +101,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">// Return value xclip which is the closest to x, so that lower &lt;= xclip &lt;= upper</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;T clip(<span class="keyword">const</span> T&amp; x, <span class="keyword">const</span> T&amp; lower, <span class="keyword">const</span> T&amp; upper) {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="keywordflow">return</span> std::max(lower, std::min(x, upper));</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">return</span> std::max(lower, std::min(x, upper));</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">// Perform linear interpolation on a set of n tabulated data points X[0 .. n-1] -&gt; Y[0 .. n-1]</span></div>
@@ -109,14 +109,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keywordtype">double</span> interpolate(<span class="keywordtype">double</span> x, <span class="keyword">const</span> std::vector&lt;double&gt;&amp; X,</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                <span class="keyword">const</span> std::vector&lt;double&gt;&amp; Y);</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">// Perform bilinear interpolation on a set of (n,m) tabulated data points X[0 .. n-1], Y[0 .. m-1] -&gt; Z[0.. n-1*m-1]</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">// Returns 0 if x &lt; X[0] or x &gt; X[n-1] or y &lt; Y[0] or y &gt; Y[m-1]</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; <span class="keywordtype">double</span> interpolate2d(<span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y, <span class="keyword">const</span> std::vector&lt;double&gt;&amp; X,</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                      <span class="keyword">const</span> std::vector&lt;double&gt;&amp; Y, <span class="keyword">const</span> std::vector&lt;double&gt;&amp; Z);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keywordtype">double</span> interpolate2d(<span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y, <span class="keyword">const</span> std::vector&lt;double&gt;&amp; X,</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                <span class="keyword">const</span> std::vector&lt;double&gt;&amp; Y, <span class="keyword">const</span> std::vector&lt;double&gt;&amp; Z);</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; <span class="comment">// Perform linear interpolation on equidistant tabulated data</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; <span class="comment">// Returns Y[0] if x &lt; lo and Y[n-1] if x &gt; hi</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">// Perform linear interpolation on equidistant tabulated data</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">// Returns Y[0] if x &lt; lo and Y[n-1] if x &gt; hi</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordtype">double</span> interpolateEquidistant(<span class="keywordtype">double</span> x, <span class="keywordtype">double</span> lo, <span class="keywordtype">double</span> hi,</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                <span class="keyword">const</span> std::vector&lt;double&gt;&amp; Y);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
@@ -127,7 +127,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 4 2016 20:17:36 for CRPropa 3.0 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 23 2016 14:48:09 for CRPropa 3.0 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>
