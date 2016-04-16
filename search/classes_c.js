@@ -6,7 +6,6 @@ var searchData=
   ['simplepropagation',['SimplePropagation',['../classcrpropa_1_1SimplePropagation.html',1,'crpropa']]],
   ['source',['Source',['../classcrpropa_1_1Source.html',1,'crpropa']]],
   ['sourcecomposition',['SourceComposition',['../classcrpropa_1_1SourceComposition.html',1,'crpropa']]],
-  ['sourcecylindricalprojectionemission',['SourceCylindricalProjectionEmission',['../classSourceCylindricalProjectionEmission.html',1,'']]],
   ['sourcedensitygrid',['SourceDensityGrid',['../classcrpropa_1_1SourceDensityGrid.html',1,'crpropa']]],
   ['sourcedensitygrid1d',['SourceDensityGrid1D',['../classcrpropa_1_1SourceDensityGrid1D.html',1,'crpropa']]],
   ['sourcedirection',['SourceDirection',['../classcrpropa_1_1SourceDirection.html',1,'crpropa']]],

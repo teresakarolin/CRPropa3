@@ -1,0 +1,25 @@
+var classcrpropa_1_1JF12Field =
+[
+    [ "JF12Field", "classcrpropa_1_1JF12Field.html#a49b791a20cb2ad67ea7b23bd64c2ebd2", null ],
+    [ "addReference", "classcrpropa_1_1JF12Field.html#a01685378d3b045c351f0dc7b9b8d8b1e", null ],
+    [ "getField", "classcrpropa_1_1JF12Field.html#a66ae9050244d88eb81ac8554d57a8941", null ],
+    [ "getField", "classcrpropa_1_1JF12Field.html#af9c80d2f5f5b4db1b5b93910bf8f3cbd", null ],
+    [ "getReferenceCount", "classcrpropa_1_1JF12Field.html#aa2610d3e303f601f2c7e60361b4b7192", null ],
+    [ "getRegularField", "classcrpropa_1_1JF12Field.html#a6d8ac08aed68869c9109d0f93a63f846", null ],
+    [ "getStriatedField", "classcrpropa_1_1JF12Field.html#aff58eab27abf67e38d7d4527c5538849", null ],
+    [ "getStriatedGrid", "classcrpropa_1_1JF12Field.html#a410e5af7a929b335c5342b17dafb481b", null ],
+    [ "getTurbulentField", "classcrpropa_1_1JF12Field.html#a7b8f95ac207cb77f89281ca7f2d9ff6e", null ],
+    [ "getTurbulentGrid", "classcrpropa_1_1JF12Field.html#a6c41470d7a232cb3a325d3a2e7ea8e56", null ],
+    [ "getTurbulentStrength", "classcrpropa_1_1JF12Field.html#a6f939dbeee8d7f66bea1cd27a3bda48e", null ],
+    [ "isUsingRegular", "classcrpropa_1_1JF12Field.html#a201eefae1e330931e3fb914cc01eb485", null ],
+    [ "isUsingStriated", "classcrpropa_1_1JF12Field.html#ad055e5030b479f7fa559c5171439b2ba", null ],
+    [ "isUsingTurbulent", "classcrpropa_1_1JF12Field.html#a3d7d86524b26597e8997e860d3756956", null ],
+    [ "randomStriated", "classcrpropa_1_1JF12Field.html#a2d57377d7f105bce917f15132abf0ad7", null ],
+    [ "removeReference", "classcrpropa_1_1JF12Field.html#ab1dd950d0b71fee6c9a6481c490eb0a8", null ],
+    [ "removeReferenceNoDelete", "classcrpropa_1_1JF12Field.html#ab7e13570034db8995f943fc593c035c5", null ],
+    [ "setStriatedGrid", "classcrpropa_1_1JF12Field.html#a88402c161df861dd4d2bbd840fc855f9", null ],
+    [ "setTurbulentGrid", "classcrpropa_1_1JF12Field.html#abebdd1a7663dfad4e1f11ced9cf3a023", null ],
+    [ "setUseRegular", "classcrpropa_1_1JF12Field.html#ad4fb5159515c22f9de639d9f43fb3632", null ],
+    [ "setUseStriated", "classcrpropa_1_1JF12Field.html#a7fc8d2fc944478c899a0945d5db11884", null ],
+    [ "setUseTurbulent", "classcrpropa_1_1JF12Field.html#aa80d210302a5a3a86346db03fb0c92e2", null ]
+];
