@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['operator_28_29',['operator()',['../classcrpropa_1_1Random.html#a8ba58318b0e39bc2e453dd4dcac1f00f',1,'crpropa::Random']]]
+  ['interpolate',['interpolate',['../classcrpropa_1_1Grid.html#a0e29ed14c20e19d08d85cabab0745bb1',1,'crpropa::Grid']]]
 ];

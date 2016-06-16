@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['_7emagneticlens',['~MagneticLens',['../classcrpropa_1_1MagneticLens.html#a38c98dc48a252726583c5c23ada3d358',1,'crpropa::MagneticLens']]]
+  ['pix2direction',['pix2Direction',['../classcrpropa_1_1Pixelization.html#a26cbfccdbc95871a8431df7ec2e61f22',1,'crpropa::Pixelization']]],
+  ['pix2order',['pix2Order',['../classcrpropa_1_1Pixelization.html#a4ee7adeb869614cba54eb5a461e8ccb8',1,'crpropa::Pixelization']]],
+  ['pixelization',['Pixelization',['../classcrpropa_1_1Pixelization.html#aeefb8b8e1a329293e43736d4d74c7009',1,'crpropa::Pixelization']]],
+  ['positionfromindex',['positionFromIndex',['../classcrpropa_1_1Grid.html#a7721ff3c95176eec3b2a45a6918c9bcd',1,'crpropa::Grid']]],
+  ['process',['process',['../classcrpropa_1_1EMCascade.html#aecbdf593d7e4341a6dd7971d10f1d20d',1,'crpropa::EMCascade::process()'],['../classcrpropa_1_1ModuleList.html#aecbdf593d7e4341a6dd7971d10f1d20d',1,'crpropa::ModuleList::process(Candidate *candidate) const '],['../classcrpropa_1_1ModuleList.html#ac87b458918f5201bb1a19f38b5880e8c',1,'crpropa::ModuleList::process(ref_ptr&lt; Candidate &gt; candidate) const '],['../classcrpropa_1_1ModuleListRunner.html#aecbdf593d7e4341a6dd7971d10f1d20d',1,'crpropa::ModuleListRunner::process()']]]
 ];

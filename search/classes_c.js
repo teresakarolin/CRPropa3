@@ -10,6 +10,7 @@ var searchData=
   ['sourcedensitygrid1d',['SourceDensityGrid1D',['../classcrpropa_1_1SourceDensityGrid1D.html',1,'crpropa']]],
   ['sourcedirection',['SourceDirection',['../classcrpropa_1_1SourceDirection.html',1,'crpropa']]],
   ['sourceemissioncone',['SourceEmissionCone',['../classcrpropa_1_1SourceEmissionCone.html',1,'crpropa']]],
+  ['sourceemissionmap',['SourceEmissionMap',['../classcrpropa_1_1SourceEmissionMap.html',1,'crpropa']]],
   ['sourceenergy',['SourceEnergy',['../classcrpropa_1_1SourceEnergy.html',1,'crpropa']]],
   ['sourcefeature',['SourceFeature',['../classcrpropa_1_1SourceFeature.html',1,'crpropa']]],
   ['sourceinterface',['SourceInterface',['../classcrpropa_1_1SourceInterface.html',1,'crpropa']]],
@@ -28,5 +29,6 @@ var searchData=
   ['sourceuniformredshift',['SourceUniformRedshift',['../classcrpropa_1_1SourceUniformRedshift.html',1,'crpropa']]],
   ['sourceuniformshell',['SourceUniformShell',['../classcrpropa_1_1SourceUniformShell.html',1,'crpropa']]],
   ['sourceuniformsphere',['SourceUniformSphere',['../classcrpropa_1_1SourceUniformSphere.html',1,'crpropa']]],
-  ['sphericalboundary',['SphericalBoundary',['../classcrpropa_1_1SphericalBoundary.html',1,'crpropa']]]
+  ['sphericalboundary',['SphericalBoundary',['../classcrpropa_1_1SphericalBoundary.html',1,'crpropa']]],
+  ['synchrotronradiation',['SynchrotronRadiation',['../classcrpropa_1_1SynchrotronRadiation.html',1,'crpropa']]]
 ];
