@@ -26,6 +26,7 @@ var searchData=
   ['redshift2lighttraveldistance',['redshift2LightTravelDistance',['../Cosmology_8h.html#a682405d9081864aaa0b706ede0736244',1,'crpropa']]],
   ['redshift2luminositydistance',['redshift2LuminosityDistance',['../Cosmology_8h.html#a21044b6b8dc8baa6bc0d62296b5be92c',1,'crpropa']]],
   ['ref_5fptr',['ref_ptr',['../classcrpropa_1_1ref__ptr.html',1,'crpropa']]],
+  ['ref_5fptr_3c_20candidate_20_3e',['ref_ptr&lt; Candidate &gt;',['../classcrpropa_1_1ref__ptr.html',1,'crpropa']]],
   ['ref_5fptr_3c_20crpropa_3a_3acandidate_20_3e',['ref_ptr&lt; crpropa::Candidate &gt;',['../classcrpropa_1_1ref__ptr.html',1,'crpropa']]],
   ['ref_5fptr_3c_20crpropa_3a_3aemissionmap_20_3e',['ref_ptr&lt; crpropa::EmissionMap &gt;',['../classcrpropa_1_1ref__ptr.html',1,'crpropa']]],
   ['ref_5fptr_3c_20crpropa_3a_3agrid_20_3e',['ref_ptr&lt; crpropa::Grid &gt;',['../classcrpropa_1_1ref__ptr.html',1,'crpropa']]],
@@ -39,8 +40,8 @@ var searchData=
   ['ref_5fptr_3c_20module_20_3e',['ref_ptr&lt; Module &gt;',['../classcrpropa_1_1ref__ptr.html',1,'crpropa']]],
   ['referenced',['Referenced',['../classcrpropa_1_1Referenced.html',1,'crpropa']]],
   ['reflectivebox',['ReflectiveBox',['../classcrpropa_1_1ReflectiveBox.html',1,'crpropa']]],
-  ['rigiditycovered',['rigidityCovered',['../classcrpropa_1_1MagneticLens.html#a7a8297f36f56469580f57efb1719de16',1,'crpropa::MagneticLens']]],
+  ['rigiditycovered',['rigidityCovered',['../classcrpropa_1_1MagneticLens.html#a09e126e579c0e758fa82a2567580a816',1,'crpropa::MagneticLens']]],
   ['rmsfieldstrength',['rmsFieldStrength',['../GridTools_8h.html#aa841514693da129eb542fe119a2acfb2',1,'crpropa::rmsFieldStrength(ref_ptr&lt; ScalarGrid &gt; grid)'],['../GridTools_8h.html#a6192532720312eabf6e5cf4de63cb241',1,'crpropa::rmsFieldStrength(ref_ptr&lt; VectorGrid &gt; grid)']]],
-  ['run',['run',['../classcrpropa_1_1ModuleList.html#aad51c06e39e82bd82f7cd1c499a4995a',1,'crpropa::ModuleList::run(Candidate *candidate, bool recursive=true)'],['../classcrpropa_1_1ModuleList.html#a3edbac8b79de9311d2578a1049afe2ac',1,'crpropa::ModuleList::run(candidate_vector_t &amp;candidates, bool recursive=true)'],['../classcrpropa_1_1ModuleList.html#a6e7fc5ac97e3e43ea4e01054efe7fc5e',1,'crpropa::ModuleList::run(SourceInterface *source, size_t count, bool recursive=true)']]],
+  ['run',['run',['../classcrpropa_1_1ModuleList.html#a64999efc68012b9b0b3fe8752fb41036',1,'crpropa::ModuleList::run(Candidate *candidate, bool recursive=true, bool secondariesFirst=false)'],['../classcrpropa_1_1ModuleList.html#ad08e840dcd005a961ad7b517ca024ea8',1,'crpropa::ModuleList::run(candidate_vector_t &amp;candidates, bool recursive=true, bool secondariesFirst=false)'],['../classcrpropa_1_1ModuleList.html#ab329c45eb426d038a3ee0016a2b7a632',1,'crpropa::ModuleList::run(SourceInterface *source, size_t count, bool recursive=true, bool secondariesFirst=false)']]],
   ['runcascade',['runCascade',['../classcrpropa_1_1EMCascade.html#ac7953bf123e9e78f1b49159f1902e6fe',1,'crpropa::EMCascade']]]
 ];

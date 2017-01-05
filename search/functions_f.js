@@ -13,11 +13,13 @@ var searchData=
   ['setlenspart',['setLensPart',['../classcrpropa_1_1MagneticLens.html#ade6860693addc8f4585314d4a2456129',1,'crpropa::MagneticLens']]],
   ['setlorentzfactor',['setLorentzFactor',['../classcrpropa_1_1ParticleState.html#a65b64edf859c3cc195b2aef18e581ce6',1,'crpropa::ParticleState']]],
   ['setmatrix',['setMatrix',['../classcrpropa_1_1LensPart.html#a7321d3fb69643e60a9de9eefaeadacc7',1,'crpropa::LensPart']]],
+  ['setnextserialnumber',['setNextSerialNumber',['../classcrpropa_1_1Candidate.html#a1af6bbb6bbc5ec030e6743c213162bb3',1,'crpropa::Candidate']]],
   ['setnextstep',['setNextStep',['../classcrpropa_1_1Candidate.html#a32900f357403f1b437d93d309c8dafa8',1,'crpropa::Candidate']]],
   ['setposition',['setPosition',['../classcrpropa_1_1ParticleState.html#a8a87b0331cf36383d6288dacbd130815',1,'crpropa::ParticleState']]],
   ['setshowprogress',['setShowProgress',['../classcrpropa_1_1ModuleList.html#a0abf2e0b4076bf42006e866b189ffc9d',1,'crpropa::ModuleList']]],
   ['setstriatedgrid',['setStriatedGrid',['../classcrpropa_1_1JF12Field.html#a88402c161df861dd4d2bbd840fc855f9',1,'crpropa::JF12Field']]],
   ['setturbulentgrid',['setTurbulentGrid',['../classcrpropa_1_1JF12Field.html#abebdd1a7663dfad4e1f11ced9cf3a023',1,'crpropa::JF12Field']]],
   ['sourceuniform1d',['SourceUniform1D',['../classcrpropa_1_1SourceUniform1D.html#ab9410ea51f1e7be573624c6e570bb359',1,'crpropa::SourceUniform1D']]],
-  ['sourceuniformbox',['SourceUniformBox',['../classcrpropa_1_1SourceUniformBox.html#a6fc897c17172514bbd02ff3239990f11',1,'crpropa::SourceUniformBox']]]
+  ['sourceuniformbox',['SourceUniformBox',['../classcrpropa_1_1SourceUniformBox.html#a6fc897c17172514bbd02ff3239990f11',1,'crpropa::SourceUniformBox']]],
+  ['sourceuniformcylinder',['SourceUniformCylinder',['../classcrpropa_1_1SourceUniformCylinder.html#a57b491564e3aeb9c352422a220ce0481',1,'crpropa::SourceUniformCylinder']]]
 ];
