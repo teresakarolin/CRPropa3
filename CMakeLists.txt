@@ -376,6 +376,7 @@ add_library(crpropa SHARED
 	src/module/AdiabaticCooling.cpp
 	src/module/Tools.cpp
 	src/magneticField/JF12Field.cpp
+	src/magneticField/JF12Beck3Field.cpp
 	src/magneticField/MagneticField.cpp
 	src/magneticField/MagneticFieldGrid.cpp
 	src/magneticField/PshirkovField.cpp

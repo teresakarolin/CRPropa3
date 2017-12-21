@@ -304,6 +304,7 @@
 %include "crpropa/magneticField/QuimbyMagneticField.h"
 %include "crpropa/magneticField/AMRMagneticField.h"
 %include "crpropa/magneticField/JF12Field.h"
+%include "crpropa/magneticField/JF12Beck3Field.h"
 %include "crpropa/magneticField/PshirkovField.h"
 %include "crpropa/magneticField/ArchimedeanSpiralField.h"
 %include "crpropa/module/BreakCondition.h"

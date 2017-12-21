@@ -99,11 +99,11 @@ void JF12Field::randomStriated(int seed) {
 }
 
 #ifdef CRPROPA_HAVE_FFTW3F
-void JF12Field::randomTurbulent(int seed) {
+void JF12Field::randomTurbulent(int seed, double Brms, double Lmin, double Lmax) {
 	useTurbulent = true;
 	// turbulent field with Kolmogorov spectrum, B_rms = 1 and Lc = 60 parsec
 	turbulentGrid = new VectorGrid(Vector3d(0.), 256, 4 * parsec);
-	initTurbulence(turbulentGrid, 1, 8 * parsec, 272 * parsec, -11./3., seed);
+	initTurbulence(turbulentGrid, Brms, Lmin * parsec, Lmax * parsec, -11./3., seed);
 }
 #endif
 
