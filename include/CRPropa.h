@@ -54,6 +54,7 @@
 #include "crpropa/module/AdiabaticCooling.h"
 
 #include "crpropa/magneticField/AMRMagneticField.h"
+#include "crpropa/magneticField/JF12Beck3Field.h"
 #include "crpropa/magneticField/JF12Field.h"
 #include "crpropa/magneticField/MagneticField.h"
 #include "crpropa/magneticField/MagneticFieldGrid.h"
