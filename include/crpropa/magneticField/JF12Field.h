@@ -74,7 +74,7 @@ public:
 
 #ifdef CRPROPA_HAVE_FFTW3F
 	// Create a random realization for the turbulent field, min and max Kolmogorov length in parsec, Lc = Lmax/5
-	void randomTurbulent(int seed = 0, double Brms = 1., double Lmin = 8, double Lmax = 272);
+	void randomTurbulent(int seed = 0);
 #endif
 
 	/**
